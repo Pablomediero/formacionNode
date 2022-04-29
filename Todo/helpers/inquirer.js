@@ -13,27 +13,27 @@ const preguntas = [
             },
             {
                 value: "2",
-                name: "2. Listar Tarea"
+                name: "2.".green+" Listar Tarea"
             },
             {
                 value: "3",
-                name: "3. Listar Tarea Completada"
+                name: "3.".green+" Listar Tarea Completada"
             },
             {
                 value: "4",
-                name: "4. Listar Tarea Pendiente"
+                name: "4.".green+" Listar Tarea Pendiente"
             },
             {
                 value: "5",
-                name: "5. Completar Tarea"
+                name: "5.".green+" Completar Tarea"
             },
             {
                 value: "6",
-                name: "6. Eliminar Tarea"
+                name: "6.".green+" Eliminar Tarea"
             },
             {
                 value: "0",
-                name: "0. Salir"
+                name: "0.".green+" Salir"
             }
          ]
 	}

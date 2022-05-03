@@ -1,7 +1,7 @@
 const fs = require("fs")
+const archivo = "./db/data.json"
 
 const guardarDB = ( data ) => {
-    const archivo = "./db/data.json"
     fs.writeFileSync(archivo, JSON.stringify(data))
 }
 
@@ -11,8 +11,9 @@ const leerDB = () => {
     }
 
     const info = fs.readFileSync(archivo, { encoding: 'utf-8'})
-    console.log(info)
-    return null
+    const data = JSON.parse(info)
+    console.log(data)
+    return data
 }
 
 module.exports = {

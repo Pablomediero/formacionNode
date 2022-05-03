@@ -4,12 +4,14 @@
   "description": "Curso de Node Udemy",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node Clima/app.js"
   },
   "author": "Pablo Mediero",
   "license": "MIT",
   "dependencies": {
+    "axios": "^0.27.2",
     "colors": "^1.4.0",
+    "dotenv": "^16.0.0",
     "inquirer": "^8.2.2",
     "nodemon": "^2.0.15",
     "uuid": "^8.3.2",

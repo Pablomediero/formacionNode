@@ -1,0 +1,9 @@
+{
+    "nombre": "test1",
+    "correo": "test1@tes.com",
+    "password": "123456",
+    "img": "http://misimagenesde.com/wp-content/uploads/2017/05/fotos-de-perfil-para-facebook-2.jpg",
+    "rol": "USER_ROLE",
+    "estado": true,
+    "google": false
+}
